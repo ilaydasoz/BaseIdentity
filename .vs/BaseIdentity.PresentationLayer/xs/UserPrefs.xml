@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{BB3A1C59-4C89-4CC4-BDAE-6F41F7FD63C7}|Default">
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.PresentationLayer FirstBuild="True" PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BaseIdentity.PresentationLayer/Controllers/RegisterController.cs">
+    <Files>
+      <File FileName="BaseIdentity.PresentationLayer/Controllers/RegisterController.cs" Line="5" Column="41" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BaseIdentity.PresentationLayer" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.DataAccessLayer FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.BusinessLayer FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.BaseIdentity.EntityLayer FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

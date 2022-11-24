@@ -1,0 +1,39 @@
+﻿@model AppUserRegisterViewModel
+
+@{
+    Layout = null;
+}
+
+<br />
+<div class="container">
+    <form method="post">
+        <h2>New User</h2>
+        <br />
+        <label>Name</label>
+        <input type="text" class="form-control" asp-for="Name" />
+        <span asp-validation-for="Name" class="text-info"></span>
+        <br />
+        <label>Surname</label>
+        <input type="text" class="form-control" asp-for="Surname" />
+        <span asp-validation-for="Surname" class="text-info"></span>
+        <br />
+        <label>Username</label>
+        <input type="text" class="form-control" asp-for="Username" />
+        <span asp-validation-for="Username" class="text-info"></span>
+        <br />
+        <label>E-mail</label>
+        <input type="text" class="form-control" asp-for="Mail" />
+        <span asp-validation-for="Mail" class="text-info"></span>
+        <br />
+        <label>Password</label>
+        <input type="text" class="form-control" asp-for="Password" />
+        <span asp-validation-for="Password" class="text-info"></span>
+        <br />
+        <label>Confirm Password</label>
+        <input type="text" class="form-control" asp-for="ConfirmPassword" />
+        <span asp-validation-for="ConfirmPassword" class="text-info"></span>
+        <br />
+        <div asp-validation-summary="ModelOnly" class="text-success"></div>
+        <button class="btn btn-outline-primary">Save User</button>
+    </form>
+</div>
